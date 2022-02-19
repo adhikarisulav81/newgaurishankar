@@ -4690,6 +4690,7 @@
 }
 .contact-us .single-info ul li a{
 	font-weight:400;
+	
 }
 .contact-us .single-info ul li a:hover{
 	color:var(--primary-color);
@@ -4964,7 +4965,7 @@
 .footer .social ul li a{
 	color:#fff;
 	display:block;
-	font-size:16px;
+	font-size:14px;
 }
 .footer .social ul li a:hover{
 	color:var(--primary-color);
