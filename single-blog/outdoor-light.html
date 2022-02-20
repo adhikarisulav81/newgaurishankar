@@ -468,6 +468,127 @@
                                             class="ti-email"></i></a>
                                 </li>
                             </ul>
+
+                            <!-- Start Product Inquiry Button Function -->
+                            <a class="btn mt-5 text-white float-left" id="inquire-btn"
+                                title="Make a Product Order Inquiry" href="#" role="button" data-toggle="modal"
+                                data-target="#modalRegisterForm"><i class="fa fa-question-circle"
+                                    style="font-size: 18px;"></i>&nbsp;
+                                Inquire Now</a>
+
+                            <form action="https://formsubmit.co/e921e8aa55365bf1fe62440faf15b32d" method="POST">
+
+                                <!-- Honeypot to prevent spammers -->
+                                <input type="text" name="_honey" style="display: none;">
+                                <!-- Disable Captcha during form submit -->
+                                <input type="hidden" name="_captcha" value="false">
+                                <!-- Redirect to success.html after form submission -->
+                                <input type="hidden" name="_next"
+                                    value="https://newgaurishankar.com.np/single-product/inquiry-success.html">
+
+                                <!-- Bootstrap modal after clicking enquiry button -->
+                                <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <center>
+                                                <h4 class="modal-title w-100 font-weight-bold mt-2 text-dark">Inquiry
+                                                    Detail</h4>
+                                            </center>
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body mx-5 mt-5">
+                                                <div class="md-form mb-2">
+                                                    <i class="fa fa-user prefix grey-text mr-2"></i><label
+                                                        data-error="wrong" data-success="right" for="orangeForm-name">
+                                                        Your Name</label>
+                                                    <input type="text" name="name" id="orangeForm-name"
+                                                        class="form-control validate" required>
+
+                                                </div>
+                                                <div class="md-form mb-2">
+                                                    <i class="fa fa-envelope prefix grey-text mr-2"></i><label
+                                                        data-error="wrong" data-success="right" for="orangeForm-email">
+                                                        Your
+                                                        Email</label>
+                                                    <input type="email" name="email" id="orangeForm-email"
+                                                        class="form-control validate" required>
+
+                                                </div>
+                                                <div class="md-form mb-2">
+                                                    <i class="ti-location-pin mr-2"></i></i><label data-error="wrong"
+                                                        data-success="right" for="orangeForm-email"> Your
+                                                        Address</label>
+                                                    <input type="text" name="address" id="orangeForm-email"
+                                                        class="form-control validate" required>
+
+                                                </div>
+                                                <div class="md-form mb-2">
+                                                    <i class="fa fa-phone mr-2"></i><label data-error="wrong"
+                                                        data-success="right" for="orangeForm-pass"> Mobile
+                                                        Number</label>
+
+                                                    <input type="text" name="number" id="orangeForm-pass"
+                                                        class="form-control validate" pattern="[9]{1}[0-9]{9}"
+                                                        title="Phone number starting with 9 and remaing 9 digit with 0-9"
+                                                        required onkeypress="isInputNumber(event)">
+
+                                                    <script>
+                                                        function isInputNumber(evt) {
+                                                            var ch = String.fromCharCode(evt.which);
+                                                            if (!(/[0-9]/.test(ch))) {
+                                                                evt.preventDefault();
+                                                            }
+                                                        }
+                                                    </script>
+
+                                                </div>
+
+                                                <div class="md-form mb-2">
+                                                    <i class="fa fa-home mr-2"></i><label data-error="wrong"
+                                                        data-success="right" for="orangeForm-pass"> Your Company
+                                                        Name</label>
+                                                    <input type="text" name="company&nbsp;name" id="orangeForm-pass"
+                                                        class="form-control validate" required>
+
+                                                </div>
+                                                <div class="md-form mb-2">
+                                                    <i class="fa fa-shopping-cart mr-2"></i><label data-error="wrong"
+                                                        data-success="right" for="orangeForm-pass"> Product Name</label>
+                                                    <input type="text" name="product&nbsp;name" id="orangeForm-pass"
+                                                        class="form-control validate" required>
+
+                                                </div>
+                                                <div class="md-form mb-2">
+                                                    <i class="fa fa-calculator mr-2"></i><label data-error="wrong"
+                                                        data-success="right" for="orangeForm-pass">
+                                                        Product Quantity</label>
+                                                    <input type="number" name="product&nbsp;quantity"
+                                                        id="orangeForm-pass" class="form-control validate" required>
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center">
+
+
+                                                <button type="submit" class="btn"><i
+                                                        class="fa fa-paper-plane"></i>&nbsp; Submit
+                                                    Inquiry</button>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Bootstrap modal after clicking enquiry button -->
+                            </form>
+
+                            <!-- End Product Inquiry Button Function -->
+
                         </div>
                         <!-- End Single Widget -->
                     </div>
