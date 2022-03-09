@@ -207,12 +207,12 @@
 .topbar {
 	background-color: #fff;
 	border-bottom: 1px solid #e2e2e2;
-	padding: 15px 0;
+	/* padding: 15px 0; */
 }
 /* Logo */
 .header .logo {
-	float: left;
-	margin-top: 35px;
+	/* float: center; */
+	/* margin-top: 35px; */
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -356,9 +356,9 @@
 	color: var(--primary-color);
 }
 /* Topbar Left Nav */
-.header.shop .left-nav{
+/* .header.shop .left-nav{
 	
-}
+} */
 .header.shop .top-left .list-main li:first-child{
 	padding-left:0;
 }
@@ -380,6 +380,14 @@
 	font-weight: 500;
 	border-right: 1px solid #f0f0f0;
 	padding: 0px 13px;
+}
+.header.shop .list-main li a {
+	display: inline-block;
+	color: #333;
+	font-size: 13px;
+	font-weight: 500;
+	border-right: 1px solid #f0f0f0;
+	/* padding: 0px 13px; */
 }
 .header.shop .list-main li i {
 	display: inline-block;
