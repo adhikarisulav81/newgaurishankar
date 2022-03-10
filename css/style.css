@@ -4907,14 +4907,27 @@
 .footer .single-footer h4 {
 	font-size: 17px;
 	font-weight: 600;
-	color: #fff;
+	color: var(--white);
 	text-transform: capitalize;
 	margin-bottom: 30px;
 }
+
+.footer .single-footer h4::after {
+	content: "";
+	/* position: absolute; */
+	/* margin-bottom: 19px; */
+	display: block;
+	width: 50px;
+	height: 4px;
+	background: var(--primary-color);
+	/* bottom: 0; */
+	/* left: calc(50% - 25px); */
+  }
+
 .footer .about .logo{
 	margin-bottom:20px;
 }
-.footer .about .logo img{}
+/* .footer .about .logo img{} */
 .footer .about .text{
 	color:#fff;
 	font-weight: 400;
