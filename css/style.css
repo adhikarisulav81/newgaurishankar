@@ -100,7 +100,7 @@
     transition: all 500ms ease;
 	display:block;
 	color: var(--white);
-	box-shadow: 0px 4px 19px var(--black);
+	box-shadow: 0px 4px 19px #00000038;
 }
 #scrollUp i:hover{
 	background:var(--primary-color);
@@ -142,9 +142,9 @@
 	position: absolute;
 	top: 100%;
 	z-index: 999;
-	-webkit-box-shadow: 0px 3px 5px var(--secondary-color)3334d;
-	-moz-box-shadow: 0px 3px 5px var(--secondary-color)3334d;
-	box-shadow: 0px 3px 5px var(--secondary-color)3334d;
+	-webkit-box-shadow: 0px 3px 5px #3333334d;
+	-moz-box-shadow: 0px 3px 5px #3333334d;
+	box-shadow: 0px 3px 5px #3333334d;
 	transform-origin: 0 0 0;
 	transform: scaleY(0.2);
 	-webkit-transition: all 0.3s ease 0s;
@@ -202,7 +202,7 @@
    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 3px 5px var(--secondary-color)3334d;
+	box-shadow: 0px 3px 5px #3333334d;
     transform-origin: 0 0 0;
     transform: scaleY(0.2);
     -webkit-transition: all 0.3s ease 0s;
@@ -473,9 +473,9 @@
 	background: var(--white);
 	z-index: 1;
 	width: 100%;
-	-webkit-box-shadow: 0px 5px 15px var(--black);
-	-moz-box-shadow: 0px 5px 15px var(--black);
-	box-shadow: 0px 5px 15px var(--black);
+	-webkit-box-shadow: 0px 5px 15px #0000000a;
+	-moz-box-shadow: 0px 5px 15px #0000000a;
+	box-shadow: 0px 5px 15px #0000000a;
 }
 .header.shop .main-category li{
 	display:block;
@@ -510,9 +510,9 @@
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 	border-left: 3px solid var(--primary-color);
-	-webkit-box-shadow: 0px 5px 15px var(--black);
-	-moz-box-shadow: 0px 5px 15px var(--black);
-	box-shadow: 0px 5px 15px var(--black);
+	-webkit-box-shadow: 0px 5px 15px #0000000a;
+	-moz-box-shadow: 0px 5px 15px #0000000a;
+	box-shadow: 0px 5px 15px #0000000a;
 }
 .header.shop .main-category li:hover .sub-category{
 	opacity:1;
@@ -894,7 +894,7 @@
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
-	box-shadow: 0px 0px 10px var(--secondary-color)3331c;
+	box-shadow: 0px 0px 10px #3333331c;
 }
 .most-popular .owl-carousel .owl-nav div:hover{
 	color:var(--white);
@@ -1552,7 +1552,7 @@
 	transition:all 0.4s ease;
 }
 .shop-blog .shop-single-blog:hover{
-	box-shadow: 0px 10px 10px var(--black);
+	box-shadow: 0px 10px 10px #0000000a;
 }
 .shop-blog .shop-single-blog img{
 	height:100%;
@@ -1714,7 +1714,7 @@
 }
 .contact-us .single-head {
 	padding: 50px;
-	box-shadow: 0px 0px 15px var(--black);
+	box-shadow: 0px 0px 15px #0000001a;
 	height: 100%;
 }
 .contact-us .single-info {
@@ -1755,7 +1755,7 @@
 	font-size: 18px;
 }
 .contact-us .form-main {
-	box-shadow: 0px 0px 15px var(--black);
+	box-shadow: 0px 0px 15px #0000001a;
 	padding: 50px;
 }
 .contact-us .form .form-group input {
