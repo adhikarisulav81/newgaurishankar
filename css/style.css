@@ -2352,3 +2352,25 @@
   cursor: pointer;
   outline: none;
 }
+
+/* Start Sticky Section in Right Side CSS */
+.sticky-container {
+	background-color: var(--secondary-color);
+	color: var(--white);
+	margin: 0;
+	padding: 20px 15px;
+	position: fixed;
+	right: -175px;
+	top: 300px;
+	width: 220px;
+	z-index: 999999;
+}
+
+.sticky-container li {
+	padding-bottom: 15px;
+}
+
+.sticky-container a:hover {
+	color: var(--primary-color);
+}
+/* End Sticky Section in Right Side CSS */
