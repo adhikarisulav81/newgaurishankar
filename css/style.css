@@ -2358,10 +2358,11 @@
 	background-color: var(--secondary-color);
 	color: var(--white);
 	margin: 0;
-	padding: 20px 15px;
+	padding:8px 15px;
 	position: fixed;
 	right: -175px;
-	top: 300px;
+	top: 400px;
+	height: 155px;
 	width: 220px;
 	z-index: 999999;
 }
