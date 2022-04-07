@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://newgaurishankar.com.np/sitemap.xml
