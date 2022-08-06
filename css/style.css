@@ -2298,6 +2298,7 @@
 /* Start Contact Form Success Page Style */
 .success{
 	width: 100%;
+	font-family: "Poppins", sans-serif;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -2306,7 +2307,7 @@
   }
   
   .success h1{
-	font-size: 160px;
+	font-size: 140px;
 	margin: 0;
 	font-weight: 900;
 	letter-spacing: 20px;
@@ -2317,7 +2318,7 @@
   
   .success a{
 	text-decoration: none;
-	background: var(--secondary-color)333;
+	background: var(--primary-color);
 	color: var(--white);
 	padding: 12px 24px;
 	display: inline-block;
@@ -2327,7 +2328,7 @@
   }
   
   .success a:hover{
-	background: var(--primary-color)
+	background: var(--secondary-color)
   }
   /* End Contact Form Success Page Style */
 /* end about.html page */
