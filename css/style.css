@@ -2375,3 +2375,28 @@
 	color: var(--primary-color);
 }
 /* End Sticky Section in Right Side CSS */
+
+
+
+/* Start Notice Page Style */
+.badge {
+	background: var(--primary-color);
+	color: var(--white);
+}
+
+.notice .old-notify {
+	background-color: var(--secondary-color);
+	color: var(--white);
+}
+
+.notice .new-notify {
+	background-color: var(--black);
+	color: var(--white);
+}
+
+.notice .old-notify a,
+.notice .new-notify a {
+	color: var(--white);
+	/* background-color: var(--primary-color); */
+}
+/* End Notice Page Style */
