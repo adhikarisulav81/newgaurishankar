@@ -1,0 +1,16 @@
+{
+    "name": "New Gauri Shankar Bijuli Bhandar",
+    "short_name": "NewGauriShankarBijuliBhandar",
+    "start_url": "/index",
+    "display": "standalone",
+    "background_color": "#4267b2",
+    "theme_color": "#db4437",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/images/logo/logo1.jpg",
+            "type": "image/jpg",
+            "sizes": "592x397"
+        }
+    ]
+}
