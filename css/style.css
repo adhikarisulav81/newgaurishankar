@@ -944,7 +944,7 @@
 }
 .product-area .nav-tabs li a.active,
 .product-area .nav-tabs li:hover a{
-	background:var(--primary-color);
+	background:var(--secondary-color);
 	color:var(--white);
 	border-color:transparent;
 }
@@ -2298,7 +2298,7 @@
 /* Start Contact Form Success Page Style */
 .success{
 	width: 100%;
-	font-family: "Poppins", sans-serif;
+	font-family: "Poppins", sans-serif; 
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
