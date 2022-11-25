@@ -607,10 +607,27 @@
 						<div class="single-product">
 							<div class="product-img">
 								<a href="#!">
-									<img class="default-img" src="images/product-img/fans/ceiling/3.jpg" alt="Fans"
-										width="100" height="100">
-									<img class="hover-img" src="images/product-img/fans/ceiling/4.jpg" alt="Fans"
-										width="100" height="100">
+									<img class="default-img" id="rs-rotate-image"
+										src="images/product-img/fans/ceiling/3.jpg" alt="Fans" width="100" height="100">
+
+									<img class="hover-img" id="rs-rotate-image"
+										src="images/product-img/fans/ceiling/4.jpg" alt="Fans" width="100" height="100">
+									<style>
+										#rs-rotate-image {
+											animation: rotation 8s infinite linear;
+
+										}
+
+										@keyframes rotation {
+											from {
+												transform: rotate(0deg);
+											}
+
+											to {
+												transform: rotate(360deg);
+											}
+										}
+									</style>
 								</a>
 								<div class="button-head">
 									<div class="product-action">
